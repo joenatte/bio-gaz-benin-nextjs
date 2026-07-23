@@ -1,0 +1,69 @@
+{
+  "heading": "Agri-Shell : la fertilité qui vient du recyclage.",
+  "intro": "Produit à partir du digestat de nos biodigesteurs et de résidus organiques, Agri-Shell existe en version liquide et granulée, adaptée à toute culture.",
+  "products": [
+    {
+      "image": "/uploads/agrishell-bottles.jpg",
+      "title": "Agri-Shell Liquide",
+      "description": "Application foliaire ou racinaire, absorption rapide."
+    },
+    {
+      "image": "/uploads/agrishell-bags.jpg",
+      "title": "Agri-Shell Granulé",
+      "description": "Fertilisation de fond, libération progressive."
+    },
+    {
+      "image": "/uploads/jerrycans-standing.jpg",
+      "title": "Conditionnement en gros",
+      "description": "Bidons de 5 à 20L pour coopératives et exploitations."
+    },
+    {
+      "image": "/uploads/production-bottling-2.jpg",
+      "title": "Embouteillage artisanal",
+      "description": "Conditionnement manuel en bidons, dosage contrôlé par l'équipe."
+    },
+    {
+      "image": "/uploads/agrishell-display-tire.jpg",
+      "title": "Présentation terrain",
+      "description": "Produits Agri-Shell présentés directement sur site de production."
+    }
+  ],
+  "lab_gallery": [
+    {
+      "image": "/uploads/lab-samples-labeled.jpg",
+      "caption": "Compost, cendre, biochar, engrais"
+    },
+    {
+      "image": "/uploads/shoveling-two.jpg",
+      "caption": "Manutention des matières"
+    },
+    {
+      "image": "/uploads/sieving.jpg",
+      "caption": "Tamisage"
+    },
+    {
+      "image": "/uploads/compost-wheelbarrow-1.jpg",
+      "caption": "Préparation"
+    },
+    {
+      "image": "/uploads/shoveling-pile.jpg",
+      "caption": "Retournement"
+    },
+    {
+      "image": "/uploads/watering-granules.jpg",
+      "caption": "Application au champ"
+    },
+    {
+      "image": "/uploads/jerrycans-bending.jpg",
+      "caption": "Manutention des bidons"
+    },
+    {
+      "image": "/uploads/charcoal-mix.jpg",
+      "caption": "Mélange charbon & compost"
+    },
+    {
+      "image": "/uploads/compost-wheelbarrow-2.jpg",
+      "caption": "Transport du compost"
+    }
+  ]
+}

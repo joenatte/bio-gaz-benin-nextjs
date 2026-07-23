@@ -1,0 +1,13 @@
+{
+  "heading": "Seven disciplines, one value chain.",
+  "intro": "From waste collection to cultivated land, each service reinforces the next.",
+  "items": [
+    { "title": "Biodigester construction", "description": "Masonry domes suited to tropical climates, sized to livestock and gas needs." },
+    { "title": "Agri-Shell biofertilizers", "description": "Liquid and granular biofertilizer produced from digestate and organic residue." },
+    { "title": "Biowaste management", "description": "Collection, sorting and valorization of agricultural and household residue." },
+    { "title": "Organic agriculture", "description": "Demonstration plots grown without chemical inputs, in support of farmers." },
+    { "title": "Animal production", "description": "Integrating livestock as a feedstock source for biodigesters." },
+    { "title": "Soil research", "description": "Lab analysis to ensure the quality and effectiveness of our biofertilizers." },
+    { "title": "Training & support", "description": "Certifying farmers and young people engaged in the green transition." }
+  ]
+}

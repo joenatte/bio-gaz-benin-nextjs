@@ -1,0 +1,36 @@
+{
+  "title": "Siège de Parakou — Banikanni",
+  "description": "Notre site principal, où sont conçus et construits nos biodigesteurs en dôme. C'est ici que biodéchets agricoles et ménagers sont transformés en biogaz et en biofertilisant Agri-Shell, au cœur du département du Borgou.",
+  "location": "Parakou, Banikanni (vers Église AD)",
+  "photos_before": [
+    {
+      "image": "/uploads/pit-measuring.jpg"
+    },
+    {
+      "image": "/uploads/basin-build.jpg"
+    }
+  ],
+  "photos_during": [
+    {
+      "image": "/uploads/cement-circle-kneel.jpg"
+    },
+    {
+      "image": "/uploads/bricklaying.jpg"
+    },
+    {
+      "image": "/uploads/cement-floor-team.jpg"
+    },
+    {
+      "image": "/uploads/cement-floor-measure.jpg"
+    }
+  ],
+  "photos_after": [
+    {
+      "image": "/uploads/dome-finished.jpg"
+    },
+    {
+      "image": "/uploads/twin-digester.jpg"
+    }
+  ],
+  "results": "Un biodigesteur en fonctionnement produisant du biogaz pour la cuisson et un digestat valorisé en biofertilisant liquide et granulé Agri-Shell."
+}

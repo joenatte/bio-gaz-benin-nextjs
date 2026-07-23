@@ -1,0 +1,12 @@
+{
+  "photo": "/uploads/founder-thumbsup-platform.jpg",
+  "heading": "Une jeunesse organisée au service d'un Bénin plus vert.",
+  "body": "Bio-Gaz-Benin-Afrique SARL est née d'une conviction simple : les déchets que nous jetons chaque jour sont en réalité de l'énergie et de la fertilité perdues. À travers le Programme Dynamique Verte de l'Urgence Climat (PDEV-UC), notre équipe conçoit des biodigesteurs adaptés au climat tropical, forme les producteurs agricoles, et transforme les résidus organiques en biofertilisant Agri-Shell.\n\nNous travaillons directement avec des exploitations familiales, des institutions religieuses, des écoles et des délégations gouvernementales et partenaires techniques venues visiter nos sites de démonstration.",
+  "values": ["Respect mutuel", "Humilité", "Discipline", "Transparence", "Travail", "Vision commune"],
+  "timeline": [
+    { "num": "01", "title": "Diagnostic & conception", "text": "Étude du site, du cheptel et des besoins en énergie et en fertilisant." },
+    { "num": "02", "title": "Construction du biodigesteur", "text": "Terrassement, maçonnerie en dôme, étanchéité et raccordement au réseau de gaz." },
+    { "num": "03", "title": "Formation & accompagnement", "text": "Certification des producteurs à l'usage du biogaz et du biofertilisant Agri-Shell." },
+    { "num": "04", "title": "Suivi scientifique", "text": "Analyse en laboratoire des sols et des intrants pour ajuster nos formules." }
+  ]
+}

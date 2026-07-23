@@ -1,0 +1,35 @@
+/*
+  Design tokens — portés à l'identique depuis le prototype validé.
+  Ne pas modifier sans validation : ce fichier EST l'identité visuelle
+  de Bio-Gaz-Benin-Afrique sur la plateforme.
+*/
+:root{
+  --clay:#A8461F;
+  --clay-soft:#C86A3E;
+  --charcoal:#1E1913;
+  --charcoal-soft:#3A322A;
+  --flame:#2E7DE0;
+  --flame-soft:#7CB3F0;
+  --leaf:#3E6B31;
+  --leaf-soft:#6E9257;
+  --paper:#F6F1E7;
+  --paper-dim:#EEE6D6;
+  --stone:#C9BEA9;
+  --white:#FFFDF9;
+  --radius-s:6px;
+  --radius-m:14px;
+  --radius-l:28px;
+  --maxw:1280px;
+  --ease:cubic-bezier(.22,.9,.32,1);
+}
+
+/* Typographie — identique au prototype */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Work+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+body{
+  font-family:'Work Sans',sans-serif;
+  background:var(--paper);
+  color:var(--charcoal);
+}
+h1,h2,h3,h4{ font-family:'Space Grotesk',sans-serif; font-weight:600; letter-spacing:-0.01em; }
+.mono{ font-family:'IBM Plex Mono',monospace; }

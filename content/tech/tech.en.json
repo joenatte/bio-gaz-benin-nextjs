@@ -1,0 +1,91 @@
+{
+  "heading": "How a Bio-Gaz biodigester works.",
+  "intro": "A simple, robust system suited to the tropical climate — built to run for decades with minimal upkeep.",
+  "steps": [
+    {
+      "icon": "🚜",
+      "title": "1. Collection",
+      "description": "Animal manure, crop residue and household waste are gathered on site."
+    },
+    {
+      "icon": "⚗️",
+      "title": "2. Loading",
+      "description": "The water/organic mix is fed into the dome fermentation chamber."
+    },
+    {
+      "icon": "🦠",
+      "title": "3. Fermentation",
+      "description": "Anaerobically, bacteria break down matter and produce biogas over 40–60 days."
+    },
+    {
+      "icon": "🔥",
+      "title": "4. Biogas",
+      "description": "Gas is piped to a stove for cooking, replacing charcoal and firewood."
+    },
+    {
+      "icon": "🌱",
+      "title": "5. Digestate",
+      "description": "The liquid and solid residue becomes the Agri-Shell biofertilizer."
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/uploads/pit-measuring.jpg",
+      "caption": "Excavation & measuring"
+    },
+    {
+      "image": "/uploads/bricklaying.jpg",
+      "caption": "Dome masonry"
+    },
+    {
+      "image": "/uploads/cement-circle-kneel.jpg",
+      "caption": "Slab casting"
+    },
+    {
+      "image": "/uploads/dome-finished.jpg",
+      "caption": "Finished dome"
+    },
+    {
+      "image": "/uploads/twin-digester.jpg",
+      "caption": "Twin-chamber unit"
+    },
+    {
+      "image": "/uploads/basin-build.jpg",
+      "caption": "Feed inlet basin"
+    },
+    {
+      "image": "/uploads/blue-flame.jpg",
+      "caption": "Biogas flame"
+    },
+    {
+      "image": "/uploads/stove-paint.jpg",
+      "caption": "Finished, painted biogas stove"
+    },
+    {
+      "image": "/uploads/twin-stove-top.jpg",
+      "caption": "Twin-burner biogas stove"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Available volumes",
+      "value": "4 – 20 m³"
+    },
+    {
+      "label": "Retention time (tropical climate)",
+      "value": "40–60 days"
+    },
+    {
+      "label": "Accepted feedstock",
+      "value": "Manure, green waste, organic wastewater"
+    },
+    {
+      "label": "Lifespan",
+      "value": "15–20+ years"
+    },
+    {
+      "label": "By-product",
+      "value": "Agri-Shell (liquid & granular)"
+    }
+  ]
+}

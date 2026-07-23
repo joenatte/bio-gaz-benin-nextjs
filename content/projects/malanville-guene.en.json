@@ -1,0 +1,29 @@
+{
+  "title": "Malanville-Guéné Service Area",
+  "description": "A service area in the far north of Benin, where we support farming communities in sustainable organic waste management and access to clean energy.",
+  "location": "Malanville-Guéné",
+  "photos_after": [
+    {
+      "image": "/uploads/group-well.jpg"
+    },
+    {
+      "image": "/uploads/team-farm.jpg"
+    },
+    {
+      "image": "/uploads/elder-bottles-field.jpg"
+    },
+    {
+      "image": "/uploads/elder-girl-field.jpg"
+    },
+    {
+      "image": "/uploads/woman-sack-leaves.jpg"
+    },
+    {
+      "image": "/uploads/sacks-child.jpg"
+    },
+    {
+      "image": "/uploads/field-wall-3.jpg"
+    }
+  ],
+  "results": "Community outreach and the spread of biowaste-valorization practices among local families and farms."
+}

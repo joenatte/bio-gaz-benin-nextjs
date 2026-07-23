@@ -1,0 +1,36 @@
+{
+  "title": "Parakou Headquarters — Banikanni",
+  "description": "Our main site, where our dome biodigesters are designed and built. Here, agricultural and household biowaste is converted into biogas and Agri-Shell biofertilizer, in the heart of Borgou department.",
+  "location": "Parakou, Banikanni (near AD Church)",
+  "photos_before": [
+    {
+      "image": "/uploads/pit-measuring.jpg"
+    },
+    {
+      "image": "/uploads/basin-build.jpg"
+    }
+  ],
+  "photos_during": [
+    {
+      "image": "/uploads/cement-circle-kneel.jpg"
+    },
+    {
+      "image": "/uploads/bricklaying.jpg"
+    },
+    {
+      "image": "/uploads/cement-floor-team.jpg"
+    },
+    {
+      "image": "/uploads/cement-floor-measure.jpg"
+    }
+  ],
+  "photos_after": [
+    {
+      "image": "/uploads/dome-finished.jpg"
+    },
+    {
+      "image": "/uploads/twin-digester.jpg"
+    }
+  ],
+  "results": "A working biodigester producing biogas for cooking, with the digestate processed into liquid and granular Agri-Shell biofertilizer."
+}

@@ -1,0 +1,9 @@
+{
+  "items": [
+    { "question": "How much does a biodigester cost?", "answer": "Cost depends on volume and site. After a technical visit, we provide a detailed quote matched to your livestock and budget." },
+    { "question": "How long does construction take?", "answer": "Typically 3–6 weeks from excavation to commissioning, depending on project size." },
+    { "question": "Is Agri-Shell suited to all crops?", "answer": "Yes. Dosage is adjusted by crop type — market garden, cereals, or orchard. Our team guides you through the protocol." },
+    { "question": "Do you offer maintenance after installation?", "answer": "Yes, technical follow-up is offered after commissioning, along with user training." },
+    { "question": "Do you work with NGOs and institutions?", "answer": "Yes, we build partnerships with rural development stakeholders." }
+  ]
+}

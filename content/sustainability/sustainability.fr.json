@@ -1,0 +1,12 @@
+{
+  "heading": "Un modèle pensé pour le climat et la terre.",
+  "intro": "Chaque biodigesteur réduit la dépendance au bois de chauffe et aux engrais chimiques, tout en captant le méthane qui serait sinon relâché dans l'atmosphère.",
+  "goals": [
+    { "num": "ODD 07", "title": "Énergie propre et abordable", "text": "Le biogaz remplace le charbon de bois pour la cuisson domestique." },
+    { "num": "ODD 12", "title": "Consommation responsable", "text": "Les déchets organiques deviennent une ressource plutôt qu'un rejet." },
+    { "num": "ODD 13", "title": "Lutte contre les changements climatiques", "text": "Captage du méthane et réduction de la déforestation liée au bois de chauffe." },
+    { "num": "ODD 02", "title": "Faim « zéro »", "text": "Des sols plus fertiles grâce au biofertilisant Agri-Shell." },
+    { "num": "ODD 08", "title": "Travail décent", "text": "Formation et emploi pour les jeunes dans la filière verte." },
+    { "num": "ODD 15", "title": "Vie terrestre", "text": "Reboisement et protection des sols intégrés à nos programmes." }
+  ]
+}

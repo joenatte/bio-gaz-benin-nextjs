@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "value": 24, "label": "Biodigesters built", "note": "placeholder — to confirm" },
+    { "value": 140, "label": "Tons of waste valorized", "note": "placeholder" },
+    { "value": 60, "label": "Farmers trained", "note": "placeholder" },
+    { "value": 3, "label": "Sites: Parakou, Natitingou, Malanville", "note": "confirmed" }
+  ]
+}

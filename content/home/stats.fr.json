@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "value": 24, "label": "Biodigesteurs construits", "note": "chiffre indicatif — à confirmer" },
+    { "value": 140, "label": "Tonnes de déchets valorisées", "note": "chiffre indicatif" },
+    { "value": 60, "label": "Producteurs formés", "note": "chiffre indicatif" },
+    { "value": 3, "label": "Sites : Parakou, Natitingou, Malanville", "note": "confirmé" }
+  ]
+}

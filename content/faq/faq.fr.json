@@ -1,0 +1,9 @@
+{
+  "items": [
+    { "question": "Combien coûte un biodigesteur ?", "answer": "Le coût dépend du volume et du site. Après une visite technique, nous fournissons un devis détaillé adapté à votre cheptel et à votre budget." },
+    { "question": "Combien de temps dure la construction ?", "answer": "Comptez généralement 3 à 6 semaines entre le terrassement et la mise en service, selon la taille du projet." },
+    { "question": "Agri-Shell convient-il à toutes les cultures ?", "answer": "Oui. Le dosage se règle selon le type de culture — maraîchage, céréales ou arboriculture. Notre équipe vous accompagne sur le protocole." },
+    { "question": "Proposez-vous un entretien après installation ?", "answer": "Oui, un suivi technique est proposé après la mise en service, ainsi qu'une formation des utilisateurs." },
+    { "question": "Travaillez-vous avec des ONG et institutions ?", "answer": "Oui, nous développons des partenariats avec les acteurs du développement rural." }
+  ]
+}

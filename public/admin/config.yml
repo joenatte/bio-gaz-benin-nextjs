@@ -1,0 +1,372 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: editorial_workflow
+media_folder: "public/uploads"
+public_folder: "/uploads"
+locale: "fr"
+
+i18n:
+  structure: multiple_files
+  locales: [fr, en]
+  default_locale: fr
+
+collections:
+
+  # ============ 1. PARAMÈTRES + RÉSEAUX SOCIAUX ============
+  - name: "settings"
+    label: "Paramètres du site"
+    files:
+      - file: "content/settings/general.json"
+        label: "Coordonnées & informations"
+        name: "general"
+        i18n: true
+        fields:
+          - { label: "Téléphone principal", name: "phone", widget: string }
+          - { label: "Téléphone secondaire", name: "phone2", widget: string, required: false }
+          - { label: "Adresse e-mail", name: "email", widget: string }
+          - { label: "Siège social", name: "address_hq", widget: string, i18n: true }
+          - { label: "Annexe 1", name: "address_annex1", widget: string, i18n: true }
+          - { label: "Annexe 2", name: "address_annex2", widget: string, i18n: true }
+          - { label: "RCCM", name: "rccm", widget: string }
+      - file: "content/settings/social.json"
+        label: "Réseaux sociaux & liens"
+        name: "social"
+        fields:
+          - { label: "Site web", name: "website", widget: string, required: false }
+          - { label: "Facebook", name: "facebook", widget: string, required: false }
+          - { label: "Instagram", name: "instagram", widget: string, required: false }
+          - { label: "TikTok", name: "tiktok", widget: string, required: false }
+          - { label: "LinkedIn", name: "linkedin", widget: string, required: false }
+          - { label: "YouTube", name: "youtube", widget: string, required: false }
+          - { label: "WhatsApp", name: "whatsapp", widget: string, required: false }
+          - { label: "Google Maps", name: "google_maps_url", widget: string, required: false }
+
+  # ============ 2. ACCUEIL (HERO) ============
+  - name: "home"
+    label: "Page d'accueil"
+    files:
+      - file: "content/home/hero.json"
+        label: "Section Hero (haut de page)"
+        name: "hero"
+        i18n: true
+        fields:
+          - { label: "Sur-titre", name: "eyebrow", widget: string, i18n: true }
+          - { label: "Titre principal", name: "title", widget: text, i18n: true, hint: "Utilisez *mot* pour mettre un mot en couleur" }
+          - { label: "Paragraphe", name: "intro", widget: text, i18n: true }
+          - { label: "Bouton 1 - texte", name: "cta1", widget: string, i18n: true }
+          - { label: "Bouton 2 - texte", name: "cta2", widget: string, i18n: true }
+          - { label: "Photo principale", name: "photo_main", widget: image }
+          - { label: "Photo secondaire (incrustée)", name: "photo_inset", widget: image }
+          - { label: "Badge sur la photo", name: "badge", widget: string, i18n: true }
+      - file: "content/home/stats.json"
+        label: "Bandeau de statistiques (sous le hero)"
+        name: "stats"
+        i18n: true
+        fields:
+          - label: "Statistiques"
+            name: "items"
+            widget: list
+            i18n: true
+            fields:
+              - { label: "Valeur (nombre)", name: "value", widget: number }
+              - { label: "Libellé", name: "label", widget: string, i18n: true }
+              - { label: "Note (ex: à confirmer)", name: "note", widget: string, required: false, i18n: true }
+
+  # ============ 3. IMPACT (section chiffrée, page d'accueil bas) ============
+  - name: "impact"
+    label: "Chiffres d'impact"
+    files:
+      - file: "content/impact/impact.json"
+        label: "Section Impact"
+        name: "impact"
+        i18n: true
+        fields:
+          - { label: "Titre de section", name: "heading", widget: string, i18n: true }
+          - { label: "Introduction", name: "intro", widget: text, i18n: true }
+          - label: "Statistiques"
+            name: "items"
+            widget: list
+            i18n: true
+            fields:
+              - { label: "Valeur (nombre)", name: "value", widget: number }
+              - { label: "Libellé", name: "label", widget: string, i18n: true }
+          - { label: "Avertissement", name: "disclaimer", widget: string, i18n: true, required: false }
+
+  # ============ 4. SERVICES ============
+  - name: "services"
+    label: "Services"
+    files:
+      - file: "content/services/services.json"
+        label: "Nos domaines d'expertise"
+        name: "services"
+        i18n: true
+        fields:
+          - { label: "Titre de section", name: "heading", widget: string, i18n: true }
+          - { label: "Introduction", name: "intro", widget: text, i18n: true }
+          - label: "Services"
+            name: "items"
+            widget: list
+            i18n: true
+            fields:
+              - { label: "Titre", name: "title", widget: string, i18n: true }
+              - { label: "Description", name: "description", widget: text, i18n: true }
+
+  # ============ 5. BIODIGESTEURS (technologie + calculateur) ============
+  - name: "tech"
+    label: "Biodigesteurs (technologie)"
+    files:
+      - file: "content/tech/tech.json"
+        label: "Technologie & procédé"
+        name: "tech"
+        i18n: true
+        fields:
+          - { label: "Titre de section", name: "heading", widget: string, i18n: true }
+          - { label: "Introduction", name: "intro", widget: text, i18n: true }
+          - label: "Étapes du procédé"
+            name: "steps"
+            widget: list
+            i18n: true
+            fields:
+              - { label: "Icône (emoji)", name: "icon", widget: string }
+              - { label: "Titre", name: "title", widget: string, i18n: true }
+              - { label: "Description", name: "description", widget: text, i18n: true }
+          - label: "Galerie technique"
+            name: "gallery"
+            widget: list
+            fields:
+              - { label: "Image", name: "image", widget: image }
+              - { label: "Légende", name: "caption", widget: string, i18n: true }
+          - label: "Fiche technique (lignes)"
+            name: "specs"
+            widget: list
+            i18n: true
+            fields:
+              - { label: "Intitulé", name: "label", widget: string, i18n: true }
+              - { label: "Valeur", name: "value", widget: string, i18n: true }
+      - file: "content/tech/calculator.json"
+        label: "Calculateur (paramètres)"
+        name: "calculator"
+        fields:
+          - { label: "Rendement biogaz (m³/kg)", name: "yield", widget: number, value_type: float, default: 0.04 }
+          - { label: "Temps de rétention (jours)", name: "retention", widget: number, default: 45 }
+          - { label: "Kg fumier/jour par bovin", name: "cattle_kg", widget: number, default: 15 }
+          - { label: "Kg fumier/jour par porcin", name: "pig_kg", widget: number, value_type: float, default: 2.5 }
+          - { label: "Kg/jour par personne", name: "person_kg", widget: number, value_type: float, default: 0.4 }
+
+  # ============ 6. AGRI-SHELL ============
+  - name: "agrishell"
+    label: "Agri-Shell (biofertilisant)"
+    files:
+      - file: "content/agrishell/agrishell.json"
+        label: "Section Agri-Shell"
+        name: "agrishell"
+        i18n: true
+        fields:
+          - { label: "Titre de section", name: "heading", widget: string, i18n: true }
+          - { label: "Introduction", name: "intro", widget: text, i18n: true }
+          - label: "Produits"
+            name: "products"
+            widget: list
+            i18n: true
+            fields:
+              - { label: "Image", name: "image", widget: image }
+              - { label: "Nom", name: "title", widget: string, i18n: true }
+              - { label: "Description", name: "description", widget: text, i18n: true }
+          - label: "Galerie labo / production"
+            name: "lab_gallery"
+            widget: list
+            fields:
+              - { label: "Image", name: "image", widget: image }
+              - { label: "Légende", name: "caption", widget: string, i18n: true }
+
+  # ============ 7. À PROPOS ============
+  - name: "about"
+    label: "À propos"
+    files:
+      - file: "content/about/about.json"
+        label: "Section À propos"
+        name: "about"
+        i18n: true
+        fields:
+          - { label: "Photo", name: "photo", widget: image }
+          - { label: "Titre", name: "heading", widget: string, i18n: true }
+          - { label: "Paragraphes", name: "body", widget: markdown, i18n: true }
+          - label: "Valeurs"
+            name: "values"
+            widget: list
+            i18n: true
+            field: { label: "Valeur", name: "value", widget: string }
+          - label: "Étapes (notre démarche)"
+            name: "timeline"
+            widget: list
+            i18n: true
+            fields:
+              - { label: "Numéro", name: "num", widget: string }
+              - { label: "Titre", name: "title", widget: string, i18n: true }
+              - { label: "Description", name: "text", widget: text, i18n: true }
+
+  # ============ 8. DURABILITÉ ============
+  - name: "sustainability"
+    label: "Durabilité"
+    files:
+      - file: "content/sustainability/sustainability.json"
+        label: "Section Durabilité"
+        name: "sustainability"
+        i18n: true
+        fields:
+          - { label: "Titre", name: "heading", widget: string, i18n: true }
+          - { label: "Introduction", name: "intro", widget: text, i18n: true }
+          - label: "Objectifs (ODD)"
+            name: "goals"
+            widget: list
+            i18n: true
+            fields:
+              - { label: "Numéro ODD", name: "num", widget: string }
+              - { label: "Titre", name: "title", widget: string, i18n: true }
+              - { label: "Description", name: "text", widget: text, i18n: true }
+
+  # ============ 9. LE PROMOTEUR ============
+  - name: "promoter"
+    label: "Le Promoteur"
+    files:
+      - file: "content/team/promoteur.json"
+        label: "Profil du Promoteur"
+        name: "promoteur"
+        i18n: true
+        fields:
+          - { label: "Nom complet", name: "name", widget: string }
+          - { label: "Photo professionnelle", name: "photo", widget: image, required: false }
+          - { label: "Fonction", name: "title", widget: string, i18n: true }
+          - { label: "Biographie", name: "bio", widget: markdown, i18n: true }
+          - { label: "Parcours académique", name: "education", widget: markdown, i18n: true, required: false }
+          - { label: "Fonctions & responsabilités", name: "roles", widget: list, i18n: true, required: false }
+          - { label: "Partenariats & engagements", name: "partnerships", widget: markdown, i18n: true, required: false }
+          - { label: "Expérience internationale", name: "international_experience", widget: markdown, i18n: true, required: false }
+          - { label: "Expérience", name: "experience", widget: markdown, i18n: true, required: false }
+          - { label: "Réalisations", name: "achievements", widget: list, i18n: true, required: false }
+          - { label: "Vision", name: "vision", widget: markdown, i18n: true, required: false }
+          - { label: "Mot du Promoteur (accueil)", name: "home_message", widget: markdown, i18n: true, required: false }
+
+  # ============ 10. RÉALISATIONS ============
+  - name: "projects"
+    label: "Nos Réalisations"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    i18n: true
+    fields:
+      - { label: "Titre", name: "title", widget: string, i18n: true }
+      - { label: "Description", name: "description", widget: markdown, i18n: true }
+      - { label: "Localisation", name: "location", widget: string, i18n: true }
+      - { label: "Capacité (m³)", name: "capacity", widget: string, required: false }
+      - { label: "Photos avant", name: "photos_before", widget: list, field: { label: Image, name: image, widget: image }, required: false }
+      - { label: "Photos pendant", name: "photos_during", widget: list, field: { label: Image, name: image, widget: image }, required: false }
+      - { label: "Photos après", name: "photos_after", widget: list, field: { label: Image, name: image, widget: image }, required: false }
+      - { label: "Résultats", name: "results", widget: markdown, i18n: true, required: false }
+
+  # ============ 11. TÉMOIGNAGES ============
+  - name: "testimonials"
+    label: "Témoignages"
+    folder: "content/testimonials"
+    create: true
+    slug: "{{slug}}"
+    i18n: true
+    fields:
+      - { label: "Nom", name: "name", widget: string }
+      - { label: "Photo", name: "photo", widget: image, required: false }
+      - { label: "Fonction / rôle", name: "role", widget: string, i18n: true }
+      - { label: "Témoignage", name: "text", widget: text, i18n: true }
+
+  # ============ 12. BLOG ============
+  - name: "blog"
+    label: "Actualités / Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    i18n: true
+    fields:
+      - { label: "Titre", name: "title", widget: string, i18n: true }
+      - { label: "Résumé", name: "summary", widget: text, i18n: true }
+      - { label: "Contenu", name: "body", widget: markdown, i18n: true }
+      - { label: "Catégorie", name: "category", widget: string, i18n: true }
+      - { label: "Image", name: "cover", widget: image }
+      - { label: "Galerie", name: "gallery", widget: list, field: { label: Image, name: image, widget: image }, required: false }
+      - { label: "Vidéo (URL)", name: "video", widget: string, required: false }
+      - { label: "Date", name: "date", widget: datetime }
+
+  # ============ 13. PARTENAIRES ============
+  - name: "partners"
+    label: "Partenaires"
+    folder: "content/partners"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Nom", name: "name", widget: string }
+      - { label: "Logo", name: "logo", widget: image, required: false }
+      - { label: "Photo", name: "photo", widget: image, required: false }
+      - { label: "Description", name: "description", widget: text, i18n: true }
+      - { label: "Site internet", name: "website", widget: string, required: false }
+      - { label: "Type", name: "type", widget: string }
+
+  # ============ 14. TOURISME & PATRIMOINE ============
+  - name: "tourism"
+    label: "Tourisme & Patrimoine"
+    folder: "content/tourism"
+    create: true
+    slug: "{{slug}}"
+    i18n: true
+    fields:
+      - { label: "Titre", name: "title", widget: string, i18n: true }
+      - { label: "Description", name: "description", widget: markdown, i18n: true }
+      - { label: "Localisation", name: "location", widget: string, i18n: true }
+      - { label: "Photos", name: "photos", widget: list, field: { label: Image, name: image, widget: image } }
+
+  # ============ 15. CARRIÈRES ============
+  - name: "jobs"
+    label: "Carrières"
+    folder: "content/jobs"
+    create: true
+    slug: "{{slug}}"
+    i18n: true
+    fields:
+      - { label: "Intitulé", name: "title", widget: string, i18n: true }
+      - { label: "Lieu", name: "location", widget: string }
+      - { label: "Type de contrat", name: "contract_type", widget: string, i18n: true }
+      - { label: "Description", name: "description", widget: markdown, i18n: true }
+      - { label: "Profil recherché", name: "requirements", widget: markdown, i18n: true, required: false }
+      - { label: "Poste actif", name: "active", widget: boolean, default: true }
+
+  # ============ 16. RESSOURCES ============
+  - name: "resources"
+    label: "Ressources"
+    folder: "content/resources"
+    create: true
+    slug: "{{slug}}"
+    i18n: true
+    fields:
+      - { label: "Titre", name: "title", widget: string, i18n: true }
+      - { label: "Description", name: "description", widget: text, i18n: true }
+      - { label: "Couverture", name: "cover", widget: image, required: false }
+      - { label: "Catégorie", name: "category", widget: string, i18n: true }
+      - { label: "Fichier", name: "file", widget: file, required: false }
+      - { label: "Niveau d'accès", name: "access_level", widget: select, default: "public", options: ["public","connected","partners","investors","admin"] }
+      - { label: "Date", name: "date", widget: datetime }
+
+  # ============ 17. FAQ ============
+  - name: "faq"
+    label: "FAQ"
+    files:
+      - file: "content/faq/faq.json"
+        label: "Questions fréquentes"
+        name: "faq"
+        i18n: true
+        fields:
+          - label: "Questions"
+            name: "items"
+            widget: list
+            i18n: true
+            fields:
+              - { label: "Question", name: "question", widget: string }
+              - { label: "Réponse", name: "answer", widget: text }

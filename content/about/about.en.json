@@ -1,0 +1,12 @@
+{
+  "photo": "/uploads/founder-thumbsup-platform.jpg",
+  "heading": "Organized youth, working toward a greener Benin.",
+  "body": "Bio-Gaz-Benin-Afrique SARL was founded on a simple conviction: the waste we throw away every day is really lost energy and lost fertility. Through the Green Dynamic Climate Emergency Program (PDEV-UC), our team designs biodigesters suited to the tropical climate, trains farmers, and turns organic residue into the Agri-Shell biofertilizer.\n\nWe work directly with family farms, religious institutions, schools, and government delegations and technical partners who visit our demonstration sites.",
+  "values": ["Mutual respect", "Humility", "Discipline", "Transparency", "Work", "Shared vision"],
+  "timeline": [
+    { "num": "01", "title": "Diagnosis & design", "text": "Site, livestock, and energy/fertilizer needs assessment." },
+    { "num": "02", "title": "Biodigester construction", "text": "Excavation, dome masonry, sealing, and gas line connection." },
+    { "num": "03", "title": "Training & follow-up", "text": "Certifying farmers on biogas use and the Agri-Shell biofertilizer." },
+    { "num": "04", "title": "Scientific monitoring", "text": "Lab analysis of soil and inputs to refine our formulas." }
+  ]
+}
