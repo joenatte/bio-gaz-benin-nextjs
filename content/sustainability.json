@@ -1,0 +1,54 @@
+{
+  "fr": {
+    "heading": "Notre contribution aux Objectifs de Développement Durable",
+    "intro": "Chaque biodigesteur installé agit à la fois sur l'énergie, les sols et le climat.",
+    "goals": [
+      {
+        "num": "07",
+        "title": "Énergie propre et abordable",
+        "text": "Le biogaz remplace le bois de chauffe et le charbon pour la cuisson quotidienne."
+      },
+      {
+        "num": "12",
+        "title": "Consommation responsable",
+        "text": "Les déchets organiques deviennent une ressource valorisée plutôt qu'un rejet."
+      },
+      {
+        "num": "13",
+        "title": "Lutte contre les changements climatiques",
+        "text": "Réduction des émissions liées au bois de chauffe et au stockage non contrôlé des déchets."
+      },
+      {
+        "num": "15",
+        "title": "Vie terrestre",
+        "text": "Le biofertilisant Agri-Shell restaure la fertilité des sols et limite les intrants chimiques."
+      }
+    ]
+  },
+  "en": {
+    "heading": "Our contribution to the Sustainable Development Goals",
+    "intro": "Every biodigester installed acts on energy, soil, and climate at once.",
+    "goals": [
+      {
+        "num": "07",
+        "title": "Affordable and clean energy",
+        "text": "Biogas replaces firewood and charcoal for everyday cooking."
+      },
+      {
+        "num": "12",
+        "title": "Responsible consumption",
+        "text": "Organic waste becomes a valorized resource rather than discarded refuse."
+      },
+      {
+        "num": "13",
+        "title": "Climate action",
+        "text": "Reduced emissions from firewood use and uncontrolled waste storage."
+      },
+      {
+        "num": "15",
+        "title": "Life on land",
+        "text": "The Agri-Shell biofertilizer restores soil fertility and limits chemical inputs."
+      }
+    ]
+  }
+}
