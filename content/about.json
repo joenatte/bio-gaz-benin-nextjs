@@ -1,0 +1,68 @@
+{
+  "fr": {
+    "photo": "/uploads/founder-digester.jpg",
+    "heading": "Notre histoire",
+    "body": "Bio-Gaz-Benin-Afrique SARL est née de la conviction que les déchets organiques sont une ressource, pas un problème. Depuis 2013, notre fondateur œuvre à la valorisation des biodéchets au Bénin ; l'entreprise formalise aujourd'hui cette mission à travers la construction de biodigesteurs et la production du biofertilisant Agri-Shell.\n\nNotre approche associe technologie éprouvée, formation de proximité et suivi scientifique, pour que chaque producteur reste autonome sur le long terme.",
+    "values": [
+      "Intégrité",
+      "Innovation locale",
+      "Impact durable",
+      "Transparence"
+    ],
+    "timeline": [
+      {
+        "num": "01",
+        "title": "Débuts dans la valorisation",
+        "text": "Premiers travaux de valorisation des biodéchets, dès 2013."
+      },
+      {
+        "num": "02",
+        "title": "Formalisation de l'entreprise",
+        "text": "Création de Bio-Gaz-Benin-Afrique SARL (RCCM RB NAT 20 B 185)."
+      },
+      {
+        "num": "03",
+        "title": "Coordination du PDEV-UC",
+        "text": "Coordination du Programme Dynamique Verte de l'Urgence Climat, Nord-Ouest Bénin."
+      },
+      {
+        "num": "04",
+        "title": "Ouverture à l'international",
+        "text": "Mission d'étude en Ouganda (2026) sur les biodigesteurs et l'économie circulaire."
+      }
+    ]
+  },
+  "en": {
+    "photo": "/uploads/founder-digester.jpg",
+    "heading": "Our story",
+    "body": "Bio-Gaz-Benin-Afrique SARL was born from the conviction that organic waste is a resource, not a problem. Since 2013, our founder has worked on biowaste valorization in Benin; the company now formalizes this mission through building biodigesters and producing the Agri-Shell biofertilizer.\n\nOur approach combines proven technology, hands-on local training, and scientific monitoring, so every producer stays self-sufficient in the long run.",
+    "values": [
+      "Integrity",
+      "Local innovation",
+      "Lasting impact",
+      "Transparency"
+    ],
+    "timeline": [
+      {
+        "num": "01",
+        "title": "Early valorization work",
+        "text": "First biowaste valorization work, starting in 2013."
+      },
+      {
+        "num": "02",
+        "title": "Company formalized",
+        "text": "Bio-Gaz-Benin-Afrique SARL founded (RCCM RB NAT 20 B 185)."
+      },
+      {
+        "num": "03",
+        "title": "Coordinating PDEV-UC",
+        "text": "Coordination of the Green Dynamic Climate Emergency Program, Northwest Benin."
+      },
+      {
+        "num": "04",
+        "title": "Going international",
+        "text": "Study mission in Uganda (2026) on biodigesters and the circular economy."
+      }
+    ]
+  }
+}
