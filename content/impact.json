@@ -1,0 +1,48 @@
+{
+  "fr": {
+    "heading": "Un impact mesuré, pas seulement promis.",
+    "intro": "Les chiffres ci-dessous sont des repères indicatifs, mis à jour au fil de nos chantiers. Contactez-nous pour notre dernier rapport d'impact.",
+    "items": [
+      {
+        "value": 24,
+        "label": "Biodigesteurs livrés"
+      },
+      {
+        "value": 140,
+        "label": "Tonnes de déchets/an"
+      },
+      {
+        "value": 60,
+        "label": "Producteurs certifiés"
+      },
+      {
+        "value": 18,
+        "label": "Tonnes CO₂e évitées/an"
+      }
+    ],
+    "disclaimer": "* Chiffres à confirmer avec l'équipe Bio-Gaz-Benin-Afrique avant publication."
+  },
+  "en": {
+    "heading": "Impact we measure, not just promise.",
+    "intro": "The figures below are indicative placeholders, updated as projects complete. Contact us for our latest impact report.",
+    "items": [
+      {
+        "value": 24,
+        "label": "Biodigesters delivered"
+      },
+      {
+        "value": 140,
+        "label": "Tons of waste/year"
+      },
+      {
+        "value": 60,
+        "label": "Certified farmers"
+      },
+      {
+        "value": 18,
+        "label": "Tons CO2e avoided/yr"
+      }
+    ],
+    "disclaimer": "* Figures to be confirmed with the Bio-Gaz-Benin-Afrique team before publishing."
+  }
+}
