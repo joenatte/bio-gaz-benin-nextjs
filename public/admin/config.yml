@@ -98,7 +98,7 @@ collections:
   - name: "services"
     label: "Services"
     files:
-      - file: "content/services/services.json"
+      - file: "../content/services/services.json"
         label: "Nos domaines d'expertise"
         name: "services"
         i18n: true
@@ -252,7 +252,7 @@ collections:
   # ============ 10. RÉALISATIONS ============
   - name: "projects"
     label: "Nos Réalisations"
-    folder: "content/projects"
+    folder: "../content/projects"
     create: true
     slug: "{{slug}}"
     i18n: true
@@ -313,7 +313,7 @@ collections:
   # ============ 14. TOURISME & PATRIMOINE ============
   - name: "tourism"
     label: "Tourisme & Patrimoine"
-    folder: "content/tourism"
+    folder: "../content/tourism"
     create: true
     slug: "{{slug}}"
     i18n: true
