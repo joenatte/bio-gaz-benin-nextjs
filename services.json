@@ -1,0 +1,62 @@
+{
+  "fr": {
+    "heading": "Nos domaines d'expertise",
+    "intro": "De la conception du biodigesteur à l'accompagnement du producteur, une chaîne complète de valorisation des biodéchets.",
+    "items": [
+      {
+        "title": "Conception & construction de biodigesteurs",
+        "description": "Étude du site, dimensionnement et construction de biodigesteurs en dôme fixe adaptés à l'exploitation."
+      },
+      {
+        "title": "Production de biogaz",
+        "description": "Mise en service et suivi de la production de biogaz pour la cuisson et l'énergie domestique."
+      },
+      {
+        "title": "Biofertilisants Agri-Shell",
+        "description": "Production de biofertilisant liquide et granulé à partir du digestat, pour une agriculture biologique."
+      },
+      {
+        "title": "Formation & accompagnement",
+        "description": "Coaching des producteurs à l'usage du biodigesteur et à l'application du biofertilisant sur le terrain."
+      },
+      {
+        "title": "Gestion de projets de développement",
+        "description": "Montage et gestion de projets de valorisation des déchets et de développement durable."
+      },
+      {
+        "title": "Transport & logistique",
+        "description": "Organisation de la chaîne d'approvisionnement, de la collecte de matière première à la livraison des produits."
+      }
+    ]
+  },
+  "en": {
+    "heading": "Our areas of expertise",
+    "intro": "From biodigester design to producer support, a complete chain for biowaste valorization.",
+    "items": [
+      {
+        "title": "Biodigester design & construction",
+        "description": "Site assessment, sizing, and construction of fixed-dome biodigesters suited to the farm."
+      },
+      {
+        "title": "Biogas production",
+        "description": "Commissioning and follow-up of biogas production for cooking and household energy."
+      },
+      {
+        "title": "Agri-Shell biofertilizers",
+        "description": "Production of liquid and granular biofertilizer from the digestate, for organic farming."
+      },
+      {
+        "title": "Training & support",
+        "description": "Coaching producers on using the biodigester and applying the biofertilizer in the field."
+      },
+      {
+        "title": "Development project management",
+        "description": "Design and management of waste valorization and sustainable development projects."
+      },
+      {
+        "title": "Transport & logistics",
+        "description": "Organizing the supply chain, from raw material collection to product delivery."
+      }
+    ]
+  }
+}
