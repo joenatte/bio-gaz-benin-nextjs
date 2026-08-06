@@ -47,7 +47,7 @@ collections:
   - name: "home"
     label: "Page d'accueil"
     files:
-      - file: "../content/home/hero.json"
+      - file: "../content/home/hero"
         label: "Section Hero (haut de page)"
         name: "hero"
         i18n: true
