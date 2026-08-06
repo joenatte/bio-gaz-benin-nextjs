@@ -18,7 +18,7 @@ collections:
   - name: "settings"
     label: "Paramètres du site"
     files:
-      - file: "../content/settings/general.json"
+      - file: "content/settings/general.json"
         label: "Coordonnées & informations"
         name: "general"
         i18n: true
@@ -30,7 +30,7 @@ collections:
           - { label: "Annexe 1", name: "address_annex1", widget: string, i18n: true }
           - { label: "Annexe 2", name: "address_annex2", widget: string, i18n: true }
           - { label: "RCCM", name: "rccm", widget: string }
-      - file: "../content/settings/social.json"
+      - file: "content/settings/social.json"
         label: "Réseaux sociaux & liens"
         name: "social"
         fields:
@@ -47,7 +47,7 @@ collections:
   - name: "home"
     label: "Page d'accueil"
     files:
-      - file: "../content/home/hero.json"
+      - file: "content/home/hero.json"
         label: "Section Hero (haut de page)"
         name: "hero"
         i18n: true
@@ -60,7 +60,7 @@ collections:
           - { label: "Photo principale", name: "photo_main", widget: image }
           - { label: "Photo secondaire (incrustée)", name: "photo_inset", widget: image }
           - { label: "Badge sur la photo", name: "badge", widget: string, i18n: true }
-      - file: "../content/home/stats.json"
+      - file: "content/home/stats.json"
         label: "Bandeau de statistiques (sous le hero)"
         name: "stats"
         i18n: true
@@ -78,7 +78,7 @@ collections:
   - name: "impact"
     label: "Chiffres d'impact"
     files:
-      - file: "../content/impact/impact.json"
+      - file: "content/impact/impact.json"
         label: "Section Impact"
         name: "impact"
         i18n: true
@@ -98,7 +98,7 @@ collections:
   - name: "services"
     label: "Services"
     files:
-      - file: "../content/services/services.json"
+      - file: "content/services/services.json"
         label: "Nos domaines d'expertise"
         name: "services"
         i18n: true
@@ -117,7 +117,7 @@ collections:
   - name: "tech"
     label: "Biodigesteurs (technologie)"
     files:
-      - file: "../content/tech/tech.json"
+      - file: "content/tech/tech.json"
         label: "Technologie & procédé"
         name: "tech"
         i18n: true
@@ -145,7 +145,7 @@ collections:
             fields:
               - { label: "Intitulé", name: "label", widget: string, i18n: true }
               - { label: "Valeur", name: "value", widget: string, i18n: true }
-      - file: "../content/tech/calculator.json"
+      - file: "content/tech/calculator.json"
         label: "Calculateur (paramètres)"
         name: "calculator"
         fields:
@@ -159,7 +159,7 @@ collections:
   - name: "agrishell"
     label: "Agri-Shell (biofertilisant)"
     files:
-      - file: "../content/agrishell/agrishell.json"
+      - file: "content/agrishell/agrishell.json"
         label: "Section Agri-Shell"
         name: "agrishell"
         i18n: true
@@ -185,7 +185,7 @@ collections:
   - name: "about"
     label: "À propos"
     files:
-      - file: "../content/about/about.json"
+      - file: "content/about/about.json"
         label: "Section À propos"
         name: "about"
         i18n: true
@@ -211,7 +211,7 @@ collections:
   - name: "sustainability"
     label: "Durabilité"
     files:
-      - file: "../content/sustainability/sustainability.json"
+      - file: "content/sustainability/sustainability.json"
         label: "Section Durabilité"
         name: "sustainability"
         i18n: true
@@ -231,7 +231,7 @@ collections:
   - name: "promoter"
     label: "Le Promoteur"
     files:
-      - file: "../content/team/promoteur.json"
+      - file: "content/team/promoteur.json"
         label: "Profil du Promoteur"
         name: "promoteur"
         i18n: true
@@ -252,7 +252,7 @@ collections:
   # ============ 10. RÉALISATIONS ============
   - name: "projects"
     label: "Nos Réalisations"
-    folder: "../content/projects"
+    folder: "content/projects"
     create: true
     slug: "{{slug}}"
     i18n: true
@@ -269,7 +269,7 @@ collections:
   # ============ 11. TÉMOIGNAGES ============
   - name: "testimonials"
     label: "Témoignages"
-    folder: "../content/testimonials"
+    folder: "content/testimonials"
     create: true
     slug: "{{slug}}"
     i18n: true
@@ -282,7 +282,7 @@ collections:
   # ============ 12. BLOG ============
   - name: "blog"
     label: "Actualités / Blog"
-    folder: "../content/blog"
+    folder: "content/blog"
     create: true
     slug: "{{slug}}"
     i18n: true
@@ -299,7 +299,7 @@ collections:
   # ============ 13. PARTENAIRES ============
   - name: "partners"
     label: "Partenaires"
-    folder: "../content/partners"
+    folder: "content/partners"
     create: true
     slug: "{{slug}}"
     fields:
@@ -313,7 +313,7 @@ collections:
   # ============ 14. TOURISME & PATRIMOINE ============
   - name: "tourism"
     label: "Tourisme & Patrimoine"
-    folder: "../content/tourism"
+    folder: "content/tourism"
     create: true
     slug: "{{slug}}"
     i18n: true
@@ -326,7 +326,7 @@ collections:
   # ============ 15. CARRIÈRES ============
   - name: "jobs"
     label: "Carrières"
-    folder: "../content/jobs"
+    folder: "content/jobs"
     create: true
     slug: "{{slug}}"
     i18n: true
@@ -341,7 +341,7 @@ collections:
   # ============ 16. RESSOURCES ============
   - name: "resources"
     label: "Ressources"
-    folder: "../content/resources"
+    folder: "content/resources"
     create: true
     slug: "{{slug}}"
     i18n: true
@@ -358,7 +358,7 @@ collections:
   - name: "faq"
     label: "FAQ"
     files:
-      - file: "../content/faq/faq.json"
+      - file: "content/faq/faq.json"
         label: "Questions fréquentes"
         name: "faq"
         i18n: true
