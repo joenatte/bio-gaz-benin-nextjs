@@ -1,0 +1,50 @@
+{
+  "fr": {
+    "items": [
+      {
+        "question": "Qu'est-ce qu'Agri-Shell ?",
+        "answer": "Agri-Shell est notre biofertilisant issu du digestat des biodigesteurs, disponible en version liquide (à diluer) ou granulée (à épandre), pour l'agriculture biologique."
+      },
+      {
+        "question": "Comment fonctionne un biodigesteur ?",
+        "answer": "Le biodigesteur transforme les déjections animales et déchets organiques en biogaz (pour la cuisson) et en digestat, valorisé ensuite en biofertilisant Agri-Shell."
+      },
+      {
+        "question": "Quelles zones couvrez-vous actuellement ?",
+        "answer": "Nos sites actuels sont à Parakou (Banikanni), Natitingou (Winké) et Malanville-Guéné, dans le Nord-Ouest du Bénin."
+      },
+      {
+        "question": "Combien de temps prend l'installation d'un biodigesteur ?",
+        "answer": "Selon la taille et le site, l'installation se déroule en plusieurs semaines, du diagnostic initial à la mise en service, avec une formation du producteur à la clé."
+      },
+      {
+        "question": "Comment vous contacter pour un projet ?",
+        "answer": "Par téléphone, email ou WhatsApp — voir la section Contact — ou en nous rendant visite sur l'un de nos sites."
+      }
+    ]
+  },
+  "en": {
+    "items": [
+      {
+        "question": "What is Agri-Shell?",
+        "answer": "Agri-Shell is our biofertilizer made from biodigester digestate, available as a liquid (to dilute) or granular (to spread) product, for organic farming."
+      },
+      {
+        "question": "How does a biodigester work?",
+        "answer": "The biodigester converts animal manure and organic waste into biogas (for cooking) and digestate, which is then processed into the Agri-Shell biofertilizer."
+      },
+      {
+        "question": "Which areas do you currently cover?",
+        "answer": "Our current sites are in Parakou (Banikanni), Natitingou (Winké), and Malanville-Guéné, in Northwest Benin."
+      },
+      {
+        "question": "How long does installing a biodigester take?",
+        "answer": "Depending on size and site, installation takes several weeks, from initial diagnosis to commissioning, including producer training."
+      },
+      {
+        "question": "How can I contact you about a project?",
+        "answer": "By phone, email, or WhatsApp — see the Contact section — or by visiting one of our sites."
+      }
+    ]
+  }
+}
