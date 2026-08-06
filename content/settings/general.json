@@ -1,0 +1,20 @@
+{
+  "fr": {
+    "phone": "01 97 11 18 08",
+    "phone2": "01 41 58 59 25",
+    "email": "biogazbeninafrique1@gmail.com",
+    "address_hq": "Siège social : Parakou — Banikanni, vers Église AD",
+    "address_annex1": "Annexe : Natitingou — Winké",
+    "address_annex2": "Zone d'intervention : Malanville-Guéné, Nord-Ouest Bénin",
+    "rccm": "RB NAT 20 B 185"
+  },
+  "en": {
+    "phone": "01 97 11 18 08",
+    "phone2": "01 41 58 59 25",
+    "email": "biogazbeninafrique1@gmail.com",
+    "address_hq": "Head office: Parakou — Banikanni, near AD Church",
+    "address_annex1": "Branch: Natitingou — Winké",
+    "address_annex2": "Service area: Malanville-Guéné, Northwest Benin",
+    "rccm": "RB NAT 20 B 185"
+  }
+}
