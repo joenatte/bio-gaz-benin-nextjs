@@ -1,0 +1,126 @@
+{
+  "fr": {
+    "heading": "De la fosse au biogaz",
+    "intro": "Un procédé éprouvé, en quatre étapes, du diagnostic du site jusqu'au suivi scientifique du digesteur.",
+    "steps": [
+      {
+        "icon": "🔍",
+        "title": "Diagnostic & conception",
+        "description": "Étude du site, du cheptel disponible et des besoins énergétiques du foyer ou de l'exploitation."
+      },
+      {
+        "icon": "🧱",
+        "title": "Construction du biodigesteur",
+        "description": "Terrassement, maçonnerie du dôme fixe, étanchéité et raccordement."
+      },
+      {
+        "icon": "🎓",
+        "title": "Formation & accompagnement",
+        "description": "Certification du producteur à l'usage du biogaz et à la valorisation du digestat."
+      },
+      {
+        "icon": "🔬",
+        "title": "Suivi scientifique",
+        "description": "Analyse en laboratoire du digestat et suivi de la performance du biodigesteur dans le temps."
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/uploads/dome-finished.jpg",
+        "caption": "Dôme achevé — Parakou"
+      },
+      {
+        "image": "/uploads/twin-digester.jpg",
+        "caption": "Biodigesteurs jumeaux"
+      },
+      {
+        "image": "/uploads/basin-build.jpg",
+        "caption": "Bassin d'alimentation"
+      },
+      {
+        "image": "/uploads/bricklaying.jpg",
+        "caption": "Maçonnerie du dôme — Natitingou"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Type de biodigesteur",
+        "value": "Dôme fixe en maçonnerie"
+      },
+      {
+        "label": "Volume",
+        "value": "4 à 20 m³ selon le foyer"
+      },
+      {
+        "label": "Temps de rétention",
+        "value": "45 jours en moyenne"
+      },
+      {
+        "label": "Rendement indicatif",
+        "value": "≈ 0,04 m³ de biogaz / kg de matière fraîche"
+      }
+    ]
+  },
+  "en": {
+    "heading": "From pit to biogas",
+    "intro": "A proven four-step process, from site diagnosis to the digester's ongoing scientific monitoring.",
+    "steps": [
+      {
+        "icon": "🔍",
+        "title": "Diagnosis & design",
+        "description": "Assessment of the site, available livestock, and the household or farm's energy needs."
+      },
+      {
+        "icon": "🧱",
+        "title": "Biodigester construction",
+        "description": "Excavation, fixed-dome masonry, sealing, and connection."
+      },
+      {
+        "icon": "🎓",
+        "title": "Training & support",
+        "description": "Certifying the producer on biogas use and digestate valorization."
+      },
+      {
+        "icon": "🔬",
+        "title": "Scientific monitoring",
+        "description": "Laboratory analysis of the digestate and tracking the biodigester's performance over time."
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/uploads/dome-finished.jpg",
+        "caption": "Finished dome — Parakou"
+      },
+      {
+        "image": "/uploads/twin-digester.jpg",
+        "caption": "Twin biodigesters"
+      },
+      {
+        "image": "/uploads/basin-build.jpg",
+        "caption": "Feed inlet basin"
+      },
+      {
+        "image": "/uploads/bricklaying.jpg",
+        "caption": "Dome masonry — Natitingou"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Biodigester type",
+        "value": "Fixed-dome masonry"
+      },
+      {
+        "label": "Volume",
+        "value": "4 to 20 m³ depending on household"
+      },
+      {
+        "label": "Retention time",
+        "value": "45 days on average"
+      },
+      {
+        "label": "Indicative yield",
+        "value": "≈ 0.04 m³ biogas / kg fresh matter"
+      }
+    ]
+  }
+}
