@@ -1,0 +1,88 @@
+{
+  "fr": {
+    "heading": "Agri-Shell — le biofertilisant issu du digestat",
+    "intro": "Le digestat du biodigesteur est transformé en deux produits prêts à l'emploi pour l'agriculture biologique.",
+    "products": [
+      {
+        "image": "/uploads/agrishell-bottles.jpg",
+        "title": "Agri-Shell Liquide",
+        "description": "Biofertilisant liquide, riche en éléments nutritifs, à diluer pour l'arrosage."
+      },
+      {
+        "image": "/uploads/agrishell-bags.jpg",
+        "title": "Agri-Shell Granulé",
+        "description": "Version granulée, pour un épandage direct au sol sur les cultures."
+      },
+      {
+        "image": "/uploads/agrishell-display-tire.jpg",
+        "title": "Présentation terrain",
+        "description": "Produits Agri-Shell présentés directement sur site de production."
+      }
+    ],
+    "lab_gallery": [
+      {
+        "image": "/uploads/watering-granules.jpg",
+        "caption": "Application au champ"
+      },
+      {
+        "image": "/uploads/lab-samples-labeled.jpg",
+        "caption": "Contrôle qualité en laboratoire"
+      },
+      {
+        "image": "/uploads/jerrycans-bending.jpg",
+        "caption": "Manutention des bidons"
+      },
+      {
+        "image": "/uploads/charcoal-mix.jpg",
+        "caption": "Mélange charbon & compost"
+      },
+      {
+        "image": "/uploads/compost-wheelbarrow-2.jpg",
+        "caption": "Transport du compost"
+      }
+    ]
+  },
+  "en": {
+    "heading": "Agri-Shell — the biofertilizer made from digestate",
+    "intro": "The biodigester's digestate is transformed into two ready-to-use products for organic farming.",
+    "products": [
+      {
+        "image": "/uploads/agrishell-bottles.jpg",
+        "title": "Agri-Shell Liquid",
+        "description": "Liquid biofertilizer, rich in nutrients, diluted for watering."
+      },
+      {
+        "image": "/uploads/agrishell-bags.jpg",
+        "title": "Agri-Shell Granular",
+        "description": "Granular version, for direct application to the soil on crops."
+      },
+      {
+        "image": "/uploads/agrishell-display-tire.jpg",
+        "title": "On-site display",
+        "description": "Agri-Shell products displayed directly at the production site."
+      }
+    ],
+    "lab_gallery": [
+      {
+        "image": "/uploads/watering-granules.jpg",
+        "caption": "Field application"
+      },
+      {
+        "image": "/uploads/lab-samples-labeled.jpg",
+        "caption": "Laboratory quality control"
+      },
+      {
+        "image": "/uploads/jerrycans-bending.jpg",
+        "caption": "Handling the containers"
+      },
+      {
+        "image": "/uploads/charcoal-mix.jpg",
+        "caption": "Charcoal & compost mix"
+      },
+      {
+        "image": "/uploads/compost-wheelbarrow-2.jpg",
+        "caption": "Transporting the compost"
+      }
+    ]
+  }
+}
